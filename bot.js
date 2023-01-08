@@ -3,7 +3,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 /* Deploy Commands */
-const { deployCommands } = require("./deploy-commands");
+const { deployCommands } = require("./lib/deploy-commands");
 
 async function deploy() {
     await deployCommands("guild")
