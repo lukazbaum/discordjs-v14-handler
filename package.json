@@ -1,0 +1,16 @@
+{
+  "name": "discordjs-v14-handler",
+  "version": "1.0.0",
+  "description": "DiscordJS v14 Handler",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Baum",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.3"
+  }
+}
