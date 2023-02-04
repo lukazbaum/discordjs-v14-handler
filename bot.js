@@ -5,8 +5,9 @@ const fs = require('node:fs');
 /* Deploy Commands */
 const { deployCommands } = require("./lib/deploy-commands");
 
-// guild, global
-deployCommands("guild").then(r => console.debug("Deployed Commands"));
+// Activate this function when adding/removing commands
+// Disable this function when testing/changing existing commands (prevents api delay)
+deployCommands("guild").then(r => console.debug("Deployed Commands")); // For global commands change type to "global"
 
 /* Command Handling */
 const client = new Client({
