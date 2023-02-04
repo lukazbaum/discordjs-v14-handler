@@ -15,6 +15,6 @@ module.exports = {
                 .setDescription('Subcommand Two')),
 
     async execute(interaction) {
-        return interaction.reply(`${interaction.options.getSubcommand()}`);
+        return interaction.reply({ content: `${interaction.options.getSubcommand()}` });
     },
 };

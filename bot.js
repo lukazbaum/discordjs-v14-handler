@@ -5,10 +5,8 @@ const fs = require('node:fs');
 /* Deploy Commands */
 const { deployCommands } = require("./lib/deploy-commands");
 
-async function deploy() {
-    await deployCommands("guild") // guild, global
-}
-deploy();
+// guild, global
+deployCommands("guild").then(r => console.debug("Deployed Commands"));
 
 /* Command Handling */
 const client = new Client({

@@ -20,6 +20,6 @@ module.exports = {
     },
 
     async execute(interaction) {
-        return interaction.reply('temporary');
+        return interaction.reply({ content: "woah!" });
     },
 };
