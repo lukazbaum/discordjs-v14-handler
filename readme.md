@@ -1,7 +1,8 @@
 This "readme" is WIP
 
+After downloading:
 1. Run `npm install`
-2. Create the file `.env` in the main directory.\n
+2. Create the file `.env` in the main directory.
 Your file should look like this:
 ```
 CLIENT_TOKEN=YOUR_CLIENT_TOKEN
