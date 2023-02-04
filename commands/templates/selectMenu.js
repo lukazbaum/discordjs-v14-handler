@@ -33,6 +33,6 @@ module.exports = {
                         },
                     ),
             );
-        return interaction.reply({ content: 'Pong!', components: [row] });
+        return interaction.reply({ content: 'Wow!', components: [row] });
     },
 };

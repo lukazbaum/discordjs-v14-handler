@@ -13,7 +13,7 @@ module.exports = {
         try {
             await database.connect("testing").then(async () => {
                 const data = {
-                    name: "Lukas"
+                    name: "FREDERICK"
                 };
                 await new testingModel(data).save();
             })

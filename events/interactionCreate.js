@@ -2,7 +2,7 @@ const { Events } = require('discord.js');
 const modals = require("../components/modals");
 const buttons = require("../components/buttons");
 const selectMenus = require("../components/selectMenus");
-const contextMenus = require("../components/context-menus");
+const contextMenus = require("../components/contextMenus");
 
 module.exports = {
     name: Events.InteractionCreate,

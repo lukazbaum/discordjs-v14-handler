@@ -4,6 +4,6 @@ dotenv.config();
 
 const manager = new ShardingManager('./bot.js', { token: process.env.CLIENT_TOKEN });
 
-manager.on('shardCreate', shard => console.log(`Launched shard ${shard.id}`));
+manager.on('shardCreate', shard => console.debug(`Launched shard ${shard.id}`));
 
 manager.spawn();

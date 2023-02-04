@@ -6,7 +6,7 @@ const fs = require('node:fs');
 const { deployCommands } = require("./lib/deploy-commands");
 
 async function deploy() {
-    await deployCommands("guild")
+    await deployCommands("guild") // guild, global
 }
 deploy();
 

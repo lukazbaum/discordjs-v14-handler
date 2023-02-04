@@ -11,28 +11,28 @@ module.exports = {
             .addComponents(
                 new ButtonBuilder()
                     .setCustomId('primary')
-                    .setLabel('Click me!')
+                    .setLabel('Click me (Primary)!')
                     .setStyle(ButtonStyle.Primary),
 
                 new ButtonBuilder()
                     .setCustomId('secondary')
-                    .setLabel('Click me!')
+                    .setLabel('Click me (Secondary)!')
                     .setStyle(ButtonStyle.Secondary),
 
                 new ButtonBuilder()
                     .setCustomId('success')
-                    .setLabel('Click me!')
+                    .setLabel('Click me (Success)!')
                     .setStyle(ButtonStyle.Success)
                     .setDisabled(true),
 
                 new ButtonBuilder()
                     .setCustomId('danger')
-                    .setLabel('Click me!')
+                    .setLabel('Click me (Danger)!')
                     .setStyle(ButtonStyle.Danger)
                     .setEmoji("😱"),
 
                 new ButtonBuilder()
-                    .setLabel('Click me!')
+                    .setLabel('Click me (Link)!')
                     .setURL("https://youtube.com")
                     .setStyle(ButtonStyle.Link),
             );
