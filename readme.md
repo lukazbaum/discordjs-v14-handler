@@ -1,4 +1,17 @@
-After downloading:
+###### This Project includes:
+- Slash Command Handler
+- Global & Guild Commandoption
+- Event Handler
+- Button Template
+- Select Menu Template
+- Context Menu Template
+- Modal Template
+- Autocomplete Template
+- Subcommand Template
+- Basic Sharding Manager
+- MongoDB Database Connection
+
+###### After downloading:
 1. Run `npm install`
 2. Create the file `.env` in the main directory.
 Your file should look like this:
