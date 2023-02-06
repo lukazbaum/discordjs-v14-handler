@@ -12,5 +12,10 @@
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "mongoose": "^6.8.3"
+  },
+  "imports": {
+    "#components/*": "./components/*.js",
+    "#lib/*": "./lib/*.js",
+    "#models/*": "./lib/models/*.js"
   }
 }
