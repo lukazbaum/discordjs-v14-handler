@@ -14,7 +14,9 @@
     "mongoose": "^6.8.3"
   },
   "imports": {
+    "#commands/*": "./commands/*.js",
     "#components/*": "./components/*.js",
+    "#events/*": "./events/*.js",
     "#lib/*": "./lib/*.js",
     "#models/*": "./lib/models/*.js"
   }
