@@ -3,7 +3,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 /* Deploy Commands */
-const { deployCommands } = require("./lib/deploy-commands");
+const { deployCommands } = require("#lib/deploy-commands");
 
 // Activate this function when adding/removing commands
 // Disable this function when testing/changing existing commands (prevents api delay)
