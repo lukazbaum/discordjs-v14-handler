@@ -21,7 +21,7 @@
 ## Getting Started
 
 ###### After downloading:
-1. Run `npm install`
+1. Run `npm install` to install missing packages.
 2. Create the file `.env` in your main directory.
    Your file should look like this:
 ```
