@@ -20,6 +20,8 @@
     - Basic Sharding Manager
     - MongoDB Database Connection
 
+## Getting Started
+
 ###### After downloading:
 1. Run `npm install`
 2. Create the file `.env` in your main directory.
