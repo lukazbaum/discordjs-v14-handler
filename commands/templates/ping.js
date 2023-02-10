@@ -7,6 +7,7 @@ module.exports = {
         .setDefaultMemberPermissions(PermissionFlagsBits.SendMessages),
 
     async execute(interaction) {
+        /* Localized response */
         /* Discord Language */
         const locales = {
             pl: 'Pang!',
