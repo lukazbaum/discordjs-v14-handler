@@ -29,4 +29,4 @@ CLIENT_TOKEN=YOUR_CLIENT_TOKEN
 GUILD_ID=YOUR_GUILD_ID
 CLIENT_ID=YOUR_CLIENT_ID
 ```
-3. Run `node .` to start your bot.
+3. Run `npm run start` or `node .` to start your bot.
