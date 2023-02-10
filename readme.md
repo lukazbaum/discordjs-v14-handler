@@ -5,8 +5,6 @@
     - Slash Command
     - Global & Guild Slash Command option
     - Event
-
-
 - Command Features
     - Button
     - Select Menu
@@ -14,8 +12,6 @@
     - Modal
     - Subcommand
     - Autocomplete
-
-
 - Various
     - Basic Sharding Manager
     - MongoDB Database Connection
