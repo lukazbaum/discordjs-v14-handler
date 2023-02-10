@@ -2,7 +2,7 @@
 ***
 
 ###### This Project includes:
-- Handler
+- Handlers
     - Slash Command
     - Global & Guild Slash Command option
     - Event
