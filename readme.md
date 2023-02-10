@@ -1,5 +1,6 @@
 ## DiscordJS v14 Slash Command Handler
-***
+
+---
 
 ###### This Project includes:
 - Handlers
@@ -21,7 +22,7 @@
     - Basic Sharding Manager
     - MongoDB Database Connection
 
-***
+---
 
 ###### After downloading:
 1. Run `npm install`
