@@ -15,7 +15,6 @@
 - Various
     - Command Permissions
     - Localized responses
-    - Basic Sharding Manager
     - MongoDB Database Connection
 
 ## Getting Started
