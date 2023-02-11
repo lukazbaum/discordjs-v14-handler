@@ -9,6 +9,7 @@
   "author": "Lukas Baum",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "mongoose": "^6.8.3"
