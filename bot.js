@@ -1,5 +1,6 @@
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const path = require('node:path');
+const chalk = require("chalk");
 const fs = require('node:fs');
 
 /* Deploy Commands */
@@ -7,7 +8,7 @@ const { deployCommands } = require("#lib/deploy-commands");
 
 // Activate this function when adding/removing commands
 // Disable this function when testing/changing existing commands (prevents api delay)
-deployCommands("guild").then(r => console.debug("Deployed Commands")); // For global commands change type to "global"
+deployCommands("guild").then(() => console.debug(chalk.green("Successfully deployed commands"))); // For global commands change type to "global"
 
 /* Command Handling */
 const client = new Client({
