@@ -29,3 +29,8 @@ GUILD_ID=YOUR_GUILD_ID
 CLIENT_ID=YOUR_CLIENT_ID
 ```
 3. Run `npm run start` or `node .` to start your bot.
+
+## Additional Information
+
+###### Contact
+- Discord: Lukаs#0001
