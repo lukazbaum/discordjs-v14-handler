@@ -6,12 +6,12 @@
     - Global & Guild Slash Command option
     - Event
 - Command Features
-    - Button
-    - Select Menu
-    - Context Menu
-    - Modal
-    - Subcommand
-    - Autocomplete
+    - Buttons
+    - Select Menus
+    - Context Menus
+    - Modals
+    - Subcommands
+    - Autocompletes
 - Various
     - Command Permissions
     - Localized responses
