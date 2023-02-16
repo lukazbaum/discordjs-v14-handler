@@ -29,7 +29,6 @@ fs.readdirSync("./commands").forEach(dir => {
 
     for (const file of commandFiles) {
         const command = require(`./commands/${dir}/${file}`);
-        client.commands.set(command.data.name, command);
 
         if ((command.data && command.execute) || (command.data && command.type === "ContextMenu")) {
             client.commands.set(command.data.name, command);
@@ -52,5 +51,7 @@ for (const file of eventFiles) {
         client.on(event.name, (...args) => event.execute(...args));
     }
 }
+
+
 
 client.login(process.env.CLIENT_TOKEN);
