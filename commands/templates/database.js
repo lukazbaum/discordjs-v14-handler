@@ -3,6 +3,7 @@ const testingModel = require("#models/testing");
 const database = require("#lib/database");
 
 module.exports = {
+    type: "SlashCommand",
     data: new SlashCommandBuilder()
         .setName('database')
         .setDescription('Adds data to the Database!')

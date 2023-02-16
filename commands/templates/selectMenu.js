@@ -1,6 +1,7 @@
 const { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder, PermissionFlagsBits} = require('discord.js');
 
 module.exports = {
+    type: "SlashCommand",
     data: new SlashCommandBuilder()
         .setName('selectmenu')
         .setDescription('Replies with a Select Menu!')

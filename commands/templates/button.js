@@ -1,6 +1,7 @@
 const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionFlagsBits} = require('discord.js');
 
 module.exports = {
+    type: "SlashCommand",
     data: new SlashCommandBuilder()
         .setName('button')
         .setDescription('Replies with a Button!')

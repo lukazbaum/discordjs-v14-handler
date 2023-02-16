@@ -1,6 +1,7 @@
 const { SlashCommandBuilder, ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle, PermissionFlagsBits} = require('discord.js');
 
 module.exports = {
+    type: "SlashCommand",
     data: new SlashCommandBuilder()
         .setName('modal')
         .setDescription('Replies with a Modal!')

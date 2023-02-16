@@ -1,6 +1,7 @@
 const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
+    type: "SlashCommand",
     data: new SlashCommandBuilder()
         .setName('ping')
         .setDescription('Replies with a localized Pong!')
