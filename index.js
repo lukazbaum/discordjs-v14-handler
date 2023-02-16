@@ -13,7 +13,6 @@ const { deployCommands } = require("#lib/deploy-commands");
 // Disable this function when testing/changing existing commands (prevents api delay)
 deployCommands("guild").then(() => console.debug(chalk.green("Successfully deployed commands"))); // For global commands change type to "global"
 
-/* Command Handling */
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -24,6 +23,7 @@ const client = new Client({
 });
 client.commands = new Collection();
 
+/* Command Handling */
 fs.readdirSync("./commands").forEach(dir => {
     const commandFiles = fs.readdirSync(`./commands/${dir}`).filter(file => file.endsWith(".js"));
 
@@ -51,7 +51,5 @@ for (const file of eventFiles) {
         client.on(event.name, (...args) => event.execute(...args));
     }
 }
-
-
 
 client.login(process.env.CLIENT_TOKEN);
