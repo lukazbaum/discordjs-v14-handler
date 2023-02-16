@@ -30,6 +30,12 @@ fs.readdirSync("./commands").forEach(dir => {
     for (const file of commandFiles) {
         const command = require(`./commands/${dir}/${file}`);
         client.commands.set(command.data.name, command);
+
+        if ((command.data && command.execute) || (command.data && command.type === "ContextMenu")) {
+            client.commands.set(command.data.name, command);
+        } else {
+            console.error(chalk.red(`The command at ${dir}/${file} is missing a required "data" or "execute" property.`));
+        }
     }
 })
 
