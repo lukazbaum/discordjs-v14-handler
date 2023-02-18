@@ -13,16 +13,15 @@ module.exports = {
         if (interaction.isChatInputCommand()) {
             const command = interaction.client.commands.get(interaction.commandName);
 
-            if (!command) {
-                console.error(chalk.red(`No command matching ${interaction.commandName} was found.`));
-                return;
-            }
+            if (!command)
+                return console.error(chalk.red(`No command matching ${interaction.commandName} was found.`));
+
 
             try {
                 await command.execute(interaction);
-            } catch (error) {
+            } catch (err) {
                 console.error(chalk.red(`Error executing ${interaction.commandName}`));
-                console.error(chalk.red(error));
+                console.error(chalk.red(err));
             }
         }
 
@@ -30,15 +29,14 @@ module.exports = {
         if (interaction.isAutocomplete()) {
             const command = interaction.client.commands.get(interaction.commandName);
 
-            if (!command) {
-                console.error(chalk.red(`No command matching ${interaction.commandName} was found.`));
-                return;
-            }
+            if (!command)
+                return console.error(chalk.red(`No command matching ${interaction.commandName} was found.`));
+
 
             try {
                 await command.autocomplete(interaction);
-            } catch (error) {
-                console.error(chalk.red(error));
+            } catch (err) {
+                console.error(chalk.red(err));
             }
         }
 
