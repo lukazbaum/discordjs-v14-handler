@@ -10,7 +10,6 @@ module.exports = {
         .setDefaultMemberPermissions(PermissionFlagsBits.SendMessages),
 
     async execute(interaction) {
-
         try {
             await database.connect("testing").then(async () => {
                 const data = {
