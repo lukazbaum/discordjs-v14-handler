@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "Lukas Baum",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "discord.js": "^14.7.1",
