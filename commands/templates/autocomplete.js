@@ -20,11 +20,11 @@ module.exports = {
 
         const filtered = choices.filter(choice => choice.startsWith(focusedValue));
         await interaction.respond(
-            filtered.map(choice => ({ name: choice, value: choice })),
+            filtered.map(choice => ({ name: choice, value: choice }))
         );
     },
 
     async execute(interaction) {
         return interaction.reply({ content: "woah!" });
-    },
+    }
 };

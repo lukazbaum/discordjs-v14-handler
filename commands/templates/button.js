@@ -38,5 +38,5 @@ module.exports = {
                     .setStyle(ButtonStyle.Link),
             );
         return interaction.reply({ content: 'I think you should,', components: [row] });
-    },
+    }
 };

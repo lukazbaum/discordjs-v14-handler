@@ -23,5 +23,5 @@ module.exports = {
         }
 
         return interaction.reply({ content: 'Information has been sent to the Database!', ephemeral: true });
-    },
+    }
 };

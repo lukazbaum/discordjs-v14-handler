@@ -35,5 +35,5 @@ module.exports = {
                     ),
             );
         return interaction.reply({ content: 'Wow!', components: [row] });
-    },
+    }
 };

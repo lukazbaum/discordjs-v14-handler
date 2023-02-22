@@ -52,5 +52,5 @@ module.exports = {
         /* Context Menus */
         if (interaction.isContextMenuCommand()) await contextMenus.handle(interaction);
 
-    },
+    }
 };

@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle, PermissionFlagsBits} = require('discord.js');
+const { SlashCommandBuilder, ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle, PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
     type: "SlashCommand",
@@ -28,5 +28,5 @@ module.exports = {
         modal.addComponents(firstActionRow, secondActionRow);
 
         return interaction.showModal(modal);
-    },
+    }
 };

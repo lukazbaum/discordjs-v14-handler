@@ -17,5 +17,5 @@ module.exports = {
 
     async execute(interaction) {
         return interaction.reply({ content: `${interaction.options.getSubcommand()}` });
-    },
+    }
 };

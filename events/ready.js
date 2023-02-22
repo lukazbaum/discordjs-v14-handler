@@ -9,5 +9,5 @@ module.exports = {
 
         client.user.setStatus("dnd"); /* online, idle, dnd, invisible */
         client.user.setActivity('Development', { type: ActivityType.Watching });
-    },
+    }
 };

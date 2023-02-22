@@ -15,5 +15,5 @@ module.exports = {
             de: 'Pong!',
         };
         return interaction.reply(locales[interaction.locale] ?? 'Ping');
-    },
+    }
 };

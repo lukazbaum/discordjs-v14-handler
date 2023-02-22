@@ -4,6 +4,6 @@ module.exports = {
     type: "ContextMenu",
     data: new ContextMenuCommandBuilder()
         .setName('User Information')
-        .setType(ApplicationCommandType.User), // .Message
+        .setType(ApplicationCommandType.User) // .Message
 }
 

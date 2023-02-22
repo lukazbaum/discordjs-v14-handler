@@ -36,7 +36,7 @@ fs.readdirSync("./commands").forEach(dir => {
             console.error(chalk.red(`The command at ${dir}/${file} is missing a required "data" or "execute" property.`));
         }
     }
-})
+});
 
 /* Event Handling */
 const eventsPath = path.join(__dirname, 'events');
