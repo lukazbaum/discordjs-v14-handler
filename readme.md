@@ -33,4 +33,4 @@ CLIENT_ID=YOUR_CLIENT_ID
 ## Additional Information
 
 ###### Contact
-- Discord: Lukаs#0001
+- Discord: lukasbaum
